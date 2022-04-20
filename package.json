@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "votat",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
 }
